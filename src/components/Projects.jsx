@@ -5,6 +5,29 @@ import '../styles/Projects.css';
 const Projects = () => (
   <div>
     <h2>My Projects 💻📊</h2>
+     <div className="project-entry">
+      <h3 className="project-header">Connections Academy School Staff Portal Migration:</h3> 
+      <p>
+      As a Software Engineering Intern on Pearson's CRM team, I led the rebuild of the School Staff Portal, the primary tool used by enrollment staff at Connections Academy which is Pearson's K-12 online school offering serving over 100,000 students in 31 states across 42 schools. The original system, built in native Salesforce, was rigid and costly requiring full Salesforce licenses and lacked UI customization. The solution was to migrate it's core functionality to Salesforce Experience Cloud, where I developed a scalable, external-facing portal using custom Lightning Web Components.
+      This migration is projected to save over $100,000 annually in licensing cost and is also expected to reduce alert resolution time by 5 days letting caretakers enroll their students faster giving Pearson the opportunity to increase their revenue.
+      </p>
+      <p>
+      Built with Salesforce Experience Cloud, Apex, SOQL, JavaScript, HTML, CSS.
+      </p>
+
+    </div>
+
+     <div className="project-entry">
+      <h3 className="project-header">Pearson Online Academy Enrollment Experience Site:</h3> 
+      <p>
+      As a Software Engineering Intern on Pearson's CRM team, I worked on the Pearson Online Academy Enrollment Experience Site, aligning it with Pearson's Paved Road development strategy. 
+      I was responsible for translating Figma designs into a fully responsive and accessible frontend for both homepage and cart flows within Salesforce's Experience Cloud using custom Lightning Web Components.
+      </p>
+      <p>
+      Built with Salesforce Experience Cloud, Apex, SOQL, JavaScript, HTML, CSS and designed based off of Figma mockups. 
+      </p>
+
+    </div>
   
     <div className="project-entry">
       <h3 className="project-header">Bug2 Controller on LEGO EV3 Robot:</h3> 
@@ -30,7 +53,7 @@ const Projects = () => (
     <div className="project-entry">
       <h3 className="project-header">Statify:</h3>
       <p>
-        <a href="https://www.statify.lol" target="_blank" rel="noopener noreferrer">Statify</a> is an interactive web application that challenges users to guess whether the amount of monthly listeners of a randomly selected Spotify artist is higher or lower than another randomly selected Spotify artist. 
+        <a href="https://statify-delta.vercel.app/" target="_blank" rel="noopener noreferrer">Statify</a> is an interactive web application that challenges users to guess whether the amount of monthly listeners of a randomly selected Spotify artist is higher or lower than another randomly selected Spotify artist. 
       </p>
       <p>
       Built with React, Flask, Axios, Spotify API, Beautiful Soup.

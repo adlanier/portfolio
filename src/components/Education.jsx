@@ -11,13 +11,19 @@ const Education = () => (
     <p>GPA: 3.7</p>
     <h4>Relevant Coursework: </h4>
     <p class="coursework">
-      Introduction to Robotics (COMP 581) - The objective of this course is to provide an introduction to robotics, with an emphasis on the computational and algorithmic aspects. The course focuses on algorithms that enable robots to effectively make use of sensory information from the environment and purposefully act upon it. Topics covered include the history of robotics, robot kinematics, actuation, sensing, configuration spaces, control, and motion planning. The course also discusses applications to personal assistance, autonomous vehicles, medical surgery, manufacturing, games, and other areas.
-    </p>
-    <p class="coursework">
       Beyond Objects: Programming in the 21st Century (COMP 590) - This advanced programming course explores paradigms and language models that move beyond traditional object-oriented programming. Through a combination of research-driven discussion and hands-on coding, students gain exposure to concurrent computation, functional programming, and emerging software engineering practices. The course includes practical experience with multiple programming languages (SML/NJ, Go, Rust, Erlang, and Elixir) alongside analysis tools and cloud-native design principles. Emphasis is placed on collaborative learning, critical reading of academic literature, and real-world application through team projects and individual assignments.
     </p>
     <p class="coursework">
+      Introduction to Robotics (COMP 581) - The objective of this course is to provide an introduction to robotics, with an emphasis on the computational and algorithmic aspects. The course focuses on algorithms that enable robots to effectively make use of sensory information from the environment and purposefully act upon it. Topics covered include the history of robotics, robot kinematics, actuation, sensing, configuration spaces, control, and motion planning. The course also discusses applications to personal assistance, autonomous vehicles, medical surgery, manufacturing, games, and other areas.
+    </p>
+    <p class="coursework">
       Foundations of Software Engineering (COMP 550) - Formal specification and verification of programs. Techniques of algorithm analysis. Problem-solving paradigms. Survey of selected algorithms.
+    </p>
+    <p class="coursework">
+      Software Engineering Labratory (COMP 523) - A team-based, project-driven course simulating real-world software development. Students collaborate over a semester to design, build, test, and deliver a working software product for an external client. Emphasizes agile teamwork, technical documentation, stakeholder communication, and ethical software engineering practices. Includes public presentations, weekly team meetings, and mentorship from faculty and graduate coaches.
+    </p>
+    <p class="coursework">
+      Models of Languages and Computation (COMP 455) - Introduction to the theory of computation. Finite automata, regular languages, pushdown automata, context-free languages, and Turing machines. Undecidable problems.
     </p>
     <p class="coursework">
       Files and Databases (COMP 421) - Placement of data on secondary storage. File organization. Database history, practice, major models, system structure and design.
@@ -41,7 +47,10 @@ const Education = () => (
     Linear Algebra for Applications (MATH 347) - Algebra of matrices with applications: determinants, solution of linear systems by Gaussian elimination, Gram-Schmidt procedure, and eigenvalues.
     </p>
     <p class="coursework">
-    Calculus of Functions of One Variable II  (MATH 232) -  Calculus of the elementary transcendental functions, techniques of integration, indeterminate forms, Taylor's formula, infinite series.
+    Calculus of Functions of Several Variable (MATH 233) -  Vector algebra, solid analytic geometry, partial derivatives, multiple integrals.
+    </p>
+    <p class="coursework">
+    Calculus of Functions of One Variable II (MATH 232) -  Calculus of the elementary transcendental functions, techniques of integration, indeterminate forms, Taylor's formula, infinite series.
     </p>
      <p class="coursework">
     Calculus of Functions of One Variable I (MATH 231) -  Limits, derivatives, and integrals of functions of one variable.
