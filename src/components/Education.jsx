@@ -17,13 +17,16 @@ const Education = () => (
       Introduction to Robotics (COMP 581) - The objective of this course is to provide an introduction to robotics, with an emphasis on the computational and algorithmic aspects. The course focuses on algorithms that enable robots to effectively make use of sensory information from the environment and purposefully act upon it. Topics covered include the history of robotics, robot kinematics, actuation, sensing, configuration spaces, control, and motion planning. The course also discusses applications to personal assistance, autonomous vehicles, medical surgery, manufacturing, games, and other areas.
     </p>
     <p class="coursework">
-      Foundations of Software Engineering (COMP 550) - Formal specification and verification of programs. Techniques of algorithm analysis. Problem-solving paradigms. Survey of selected algorithms.
+      Algorithms and Analysis (COMP 550) - Formal specification and verification of programs. Techniques of algorithm analysis. Problem-solving paradigms. Survey of selected algorithms.
     </p>
     <p class="coursework">
       Software Engineering Labratory (COMP 523) - A team-based, project-driven course simulating real-world software development. Students collaborate over a semester to design, build, test, and deliver a working software product for an external client. Emphasizes agile teamwork, technical documentation, stakeholder communication, and ethical software engineering practices. Includes public presentations, weekly team meetings, and mentorship from faculty and graduate coaches.
     </p>
     <p class="coursework">
       Models of Languages and Computation (COMP 455) - Introduction to the theory of computation. Finite automata, regular languages, pushdown automata, context-free languages, and Turing machines. Undecidable problems.
+    </p>
+    <p class="coursework">
+      Foundations of Software Engineering (COMP 423) - This course introduces students to the fundamentals of Software Engineering. Students gain experience with design thinking and processes, technical communication, team collaboration, project management methodology, the software development lifecycle, and more, with an emphasis on today's best industrial practices.
     </p>
     <p class="coursework">
       Files and Databases (COMP 421) - Placement of data on secondary storage. File organization. Database history, practice, major models, system structure and design.
