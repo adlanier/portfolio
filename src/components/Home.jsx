@@ -3,7 +3,7 @@ import React from 'react';
 
 const Home = () => (
   <div>
-    <h2>Hello 👋 </h2>
+    <h2>About me 🙋‍♂️</h2>
     <p>
       My name is Adrian Lanier and I am an undergraduate student at the University of North Carolina at Chapel Hill pursuing a Bachelor of Science in Computer Science.
     </p>
