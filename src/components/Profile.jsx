@@ -11,7 +11,7 @@ const Profile = () => {
       <img src={profilePic} alt="Profile" className="profile-pic" />
       <h1 className="profile-name" style={{ fontWeight: "bold"}}>Adrian Lanier</h1>
       <p className="about-me">
-        Pursuing a B.S in Computer Science from the University of North Carolina - Chapel Hill
+        Pursuing a B.S. in Computer Science from the University of North Carolina - Chapel Hill
       </p>
       <p className="about-me">
         📍 Jensen Beach, FL 🔄 Chapel Hill, NC 

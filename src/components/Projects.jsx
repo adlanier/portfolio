@@ -8,9 +8,9 @@ const Projects = () => (
      <div className="project-entry">
       <h3 className="project-header">Connections Academy School Staff Portal Migration:</h3> 
       <p>
-      As a Software Engineering Intern on Pearson's CRM team, I led the rebuild of the School Staff Portal, the primary tool used by enrollment staff at Connections Academy which is Pearson's K-12 online school offering serving over 100,000 students in 31 states across 42 schools. The original system, built in native Salesforce, was rigid and costly requiring full Salesforce licenses and lacked UI customization. The solution was to migrate it's core functionality to Salesforce Experience Cloud, where I developed a scalable, external-facing portal using custom Lightning Web Components.
-      This migration is projected to save over $100,000 annually in licensing cost and is also expected to reduce alert resolution time by 5 days letting caretakers enroll their students faster giving Pearson the opportunity to increase their revenue.
-      </p>
+      As a Software Engineering Intern on Pearson's CRM team, I led the rebuild of the School Staff Portal, the primary tool used by enrollment staff at Connections Academy which is Pearson's K-12 online school offering serving over 100,000 students in 31 states across 42 schools. The original system, built in native Salesforce, was rigid and costly, requiring full Salesforce licenses and lacked UI customization. The solution was to migrate its core functionality to Salesforce Experience Cloud, where I developed a scalable, external-facing portal using custom Lightning Web Components.
+      This migration is projected to save over $100,000 annually in licensing costs and reduce alert resolution time by five days. This improvement allows caretakers to enroll students faster and creates additional revenue opportunities for Pearson.
+       </p>
       <p>
       Built with Salesforce Experience Cloud, Apex, SOQL, JavaScript, HTML, CSS.
       </p>
@@ -24,10 +24,20 @@ const Projects = () => (
       I was responsible for translating Figma designs into a fully responsive and accessible frontend for both homepage and cart flows within Salesforce's Experience Cloud using custom Lightning Web Components.
       </p>
       <p>
-      Built with Salesforce Experience Cloud, Apex, SOQL, JavaScript, HTML, CSS and designed based off of Figma mockups. 
+      Built with Salesforce Experience Cloud, Apex, SOQL, JavaScript, HTML, CSS and designed from Figma mockups. 
       </p>
 
     </div>
+
+       <div className="project-entry">
+      <h3 className="project-header">SecureBank – Systems Reliability Work Sample:</h3> 
+      <p>
+      <a href="https://github.com/adlanier/securebank-work-sample" target="_blank" rel="noopener noreferrer">SecureBank</a> is a banking-style web application used as a work sample for security hardening, validation fixes, session management, and transaction integrity. Focused on root-cause analysis, production defect prioritization, and regression testing.
+      </p>
+      <p>
+      Built with Next.js, TypeScript, tRPC, and SQLite.
+      </p>
+     </div>
   
     <div className="project-entry">
       <h3 className="project-header">Bug2 Controller on LEGO EV3 Robot:</h3> 

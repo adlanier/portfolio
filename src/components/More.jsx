@@ -12,7 +12,7 @@ const More = () => (
     <h3>National Trumpet Competition 2018 <a href="https://www.youtube.com/watch?v=6KSzZY5GiOI" target="_blank" rel="noopener noreferrer">🎥</a></h3>
       <p><i>3rd Place - Junior Division</i></p>
       <p>
-      Adrian Lanier, third place winner in the Junior Solo Division performs Alexander Goedicke’s Concert Etude, at the 2018 National Trumpet Competition at the University of North Texas, Denton Texas.
+      Adrian Lanier, third place winner in the Junior Solo Division performs Alexander Goedicke’s Concert Etude, at the 2018 National Trumpet Competition at the University of North Texas, Denton, Texas.
       </p>
   </div>
 );
