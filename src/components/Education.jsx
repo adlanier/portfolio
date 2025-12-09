@@ -10,7 +10,7 @@ const Education = () => (
     <p>August 2022 - May 2026</p>
     <p>GPA: 3.7</p>
     <h4>Relevant Coursework: </h4>
-    Algorithms and Analysis, Data Structures, Models of Computation, Software Engineering Laboratory, Systems Fundamentals, Files and Databases, Linear Algebra, Multivariable Calculus, Robotics, Computer Organization
+    Algorithms and Analysis, Data Structures, Models of Computation, Software Engineering Laboratory, Systems Fundamentals, Files and Databases, Linear Algebra, Multivariable Calculus, Robotics
 
     {/* <p class="coursework">
       Beyond Objects: Programming in the 21st Century (COMP 590) - This advanced programming course explores paradigms and language models that move beyond traditional object-oriented programming. Through a combination of research-driven discussion and hands-on coding, students gain exposure to concurrent computation, functional programming, and emerging software engineering practices. The course includes practical experience with multiple programming languages (SML/NJ, Go, Rust, Erlang, and Elixir) alongside analysis tools and cloud-native design principles. Emphasis is placed on collaborative learning, critical reading of academic literature, and real-world application through team projects and individual assignments.
