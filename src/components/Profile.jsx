@@ -16,10 +16,20 @@ const Profile = () => {
       <p className="about-me">
         📍 Jensen Beach, FL 🔄 Chapel Hill, NC 
       </p>
-     
+      {/* CLEAR resume button */}
+        <div className="resume-button">
+          <a
+            href={resume}
+            download="Lanier_Adrian.pdf"
+            className="resume-link"
+          >
+            <FaFile className="resume-icon" />
+            <span>Download Resume (PDF)</span>
+          </a>
+        </div>
       <div className="contact-section">
         <div className="contact-top">
-        <p> <a href={resume} download="Lanier_Adrian.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p>
+        {/* <p> <a href={resume} download="Lanier_Adrian.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p> */}
           <p><a href="mailto:adrianlanier33@gmail.com" className="icon"><FaEnvelope icon={FaEnvelope} style={{ color: 'gray' }} /></a> </p>
           <p><a href="https://www.linkedin.com/in/adrianlanier" target="_blank" rel="noopener noreferrer" className="icon">
             <FaLinkedin icon={FaLinkedin} style={{ color: '#0077B5' }} />
