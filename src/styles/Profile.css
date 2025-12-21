@@ -165,3 +165,17 @@
   font-size: 1rem;
   color: white;
 }
+
+@media (max-width: 630px) {
+  .resume-link {
+    padding: 0.2rem 0.4rem;   /* tighter pill */
+    font-size: .55rem;        /* smaller text */
+    gap: 0.3rem; 
+    margin-right: .3rem;  
+  
+  }
+
+  .resume-icon {
+    font-size: 0.5rem;
+  }
+}

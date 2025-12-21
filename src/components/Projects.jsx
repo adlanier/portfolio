@@ -5,6 +5,24 @@ import '../styles/Projects.css';
 const Projects = () => (
   <div>
     <h2>My Projects 💻📊</h2>
+
+    {/* <div className="project-entry">
+      <h3 className="project-header"></h3> 
+      <p></p>
+      <p></p>
+    </div> */}
+
+      <div className="project-entry">
+      <h3 className="project-header">SecureBank – Systems Reliability Work Sample:</h3> 
+      <p>
+      <a href="https://github.com/adlanier/securebank-work-sample" target="_blank" rel="noopener noreferrer">SecureBank</a> is a banking-style web application used as a work sample for security hardening, validation fixes, session management, and transaction integrity. The project emphasizes root-cause analysis, production defect prioritization, and regression testing.
+      </p>
+      <p> <a href="https://github.com/adlanier/securebank-work-sample/blob/main/TECHNICAL_REPORT.md" target="_blank" rel="noopener noreferrer">Technical Report</a>: Written documentation describing the root cause of each issue, how each fix resolves the problem, and preventive measures to avoid regressions.</p>
+      <p>
+      Built with Next.js, TypeScript, tRPC, and SQLite.
+      </p>
+     </div>
+
      <div className="project-entry">
       <h3 className="project-header">Connections Academy School Staff Portal Migration:</h3> 
       <p>
@@ -28,16 +46,6 @@ const Projects = () => (
       </p>
 
     </div>
-
-       <div className="project-entry">
-      <h3 className="project-header">SecureBank – Systems Reliability Work Sample:</h3> 
-      <p>
-      <a href="https://github.com/adlanier/securebank-work-sample" target="_blank" rel="noopener noreferrer">SecureBank</a> is a banking-style web application used as a work sample for security hardening, validation fixes, session management, and transaction integrity. Focused on root-cause analysis, production defect prioritization, and regression testing.
-      </p>
-      <p>
-      Built with Next.js, TypeScript, tRPC, and SQLite.
-      </p>
-     </div>
   
     <div className="project-entry">
       <h3 className="project-header">Bug2 Controller on LEGO EV3 Robot:</h3> 
@@ -73,8 +81,9 @@ const Projects = () => (
     <div className="project-entry">
       <h3 className="project-header">CS Experience Labs Coworking Webpage:        <a href="https://www.youtube.com/watch?v=zPVB2ZGEAJQ&ab_channel=TraceGlasby" target="_blank" rel="noopener noreferrer">🎥</a></h3>
       <p>
-        Worked with a small team of programmers to enhance UNC’s <a href="https://www.youtube.com/watch?v=zPVB2ZGEAJQ&ab_channel=TraceGlasby" target="_blank" rel="noopener noreferrer">CSXL Webpage</a> with a robust member management system that enables organizations to list members by term, manage requests, and offer open membership. We facilitated the ability to create exclusive events and improved the overall website functionality for student organizers to better foster community engagement.
+        Worked with a small team of programmers to enhance UNC’s <a href="https://github.com/tr4ce123/csxl-final-team-c6/tree/stage" target="_blank" rel="noopener noreferrer">CSXL Webpage</a> with a robust member management system that enables organizations to list members by term, manage requests, and offer open membership. We facilitated the ability to create exclusive events and improved the overall website functionality for student organizers to better foster community engagement.
       </p>
+      <p><a href="https://github.com/tr4ce123/csxl-final-team-c6/blob/stage/docs/specs/organization-roster-spec.md">Organization Roster Technical Specification</a>: This document contains the technical specifications, this feature adds new API routes, new database tables, and new frontend components to the organization</p>
       <p>
       Built with Angular, FastAPI, Docker, Kubernetes, TypeScript, Python, PostgreSQL.
       </p>

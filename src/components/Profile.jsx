@@ -16,6 +16,7 @@ const Profile = () => {
       <p className="about-me">
         📍 Jensen Beach, FL 🔄 Chapel Hill, NC 
       </p>
+      
       {/* CLEAR resume button */}
         <div className="resume-button">
           <a
@@ -27,6 +28,7 @@ const Profile = () => {
             <span>Download Resume (PDF)</span>
           </a>
         </div>
+
       <div className="contact-section">
         <div className="contact-top">
         {/* <p> <a href={resume} download="Lanier_Adrian.pdf" className="icon"><FaFile icon={FaFile} style={{ color: 'gray' }}/> </a></ p> */}
