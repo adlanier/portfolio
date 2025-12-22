@@ -12,6 +12,19 @@ const Projects = () => (
       <p></p>
     </div> */}
 
+    <div className="project-entry">
+      <h3 className="project-header">pit • peak • buffalo</h3> 
+      <p><a href="https://pit-peak-buffalo.vercel.app/">pit • peak • buffalo</a> is a location-based social journaling platform inspired by Yik Yak, designed to let users post short, anonymous reflections tied to their physical location.
+      
+      Posts are categorized as the worst part about your day (pit), the best part about your day (peak), or the weirdest part about your day (buffalo).</p>
+      <p>I built the application end-to-end as a full-stack system, focusing on clean API design, type safety, and performance. The backend uses a serverless API with Prisma and PostgreSQL to support both a global feed and a nearby feed. Location-based filtering is implemented using efficient bounding-box math rather than heavyweight geospatial libraries, allowing fast queries within a configurable radius.
+      On the frontend, I integrated browser geolocation and built client-side state management to handle live refreshes, radius selection, loading states, and error handling. Strong validation and strict post categorization are enforced at both compile time and runtime using TypeScript.
+      </p>
+      <p>Built with Next.js, TypeScript, Prisma, PostgreSQL, React</p>
+      <p>Repositories:</p>
+      <p> • <a href="https://github.com/adlanier/pit-peak-buffalo">pit • peak • buffalo</a></p>
+    </div>
+
       <div className="project-entry">
       <h3 className="project-header">SecureBank – Systems Reliability Work Sample:</h3> 
       <p>
@@ -73,9 +86,14 @@ const Projects = () => (
       <p>
         <a href="https://statify-delta.vercel.app/" target="_blank" rel="noopener noreferrer">Statify</a> is an interactive web application that challenges users to guess whether the amount of monthly listeners of a randomly selected Spotify artist is higher or lower than another randomly selected Spotify artist. 
       </p>
+
       <p>
       Built with React, Flask, Axios, Spotify API, Beautiful Soup.
       </p>
+
+      <p>Repositories:</p>
+      <p> • <a href="https://github.com/adlanier/statify">statify</a></p>
+      <p> • <a href="https://github.com/adlanier/statify-flask">statify-flask</a></p>
     </div>
 
     <div className="project-entry">
